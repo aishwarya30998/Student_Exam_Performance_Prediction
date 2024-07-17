@@ -1,5 +1,9 @@
 # End to End ML project
 ##  Student_Exam_Performance_Prediction
+To run and check the predictio results: 
+1)fork this repository
+2)install packages from pip install -r requirements.txt
+3) run python app.py
 
 ## Overview
 This project aims to predict student performance using machine learning techniques. It includes data collection, preprocessing, model training, evaluation, and logging functionalities.
@@ -36,7 +40,7 @@ a pipeline will be created and whenever a change happens in github, pipeline ref
 
 - **Azure Web App**: create a resource and deploy this gibhub code into Azure cloud using github Actions can  also push docker container to azure. soon after connecting github to azure a workflows folder is created with a Yml file which will have necessary configrations for Deployemnt.
 
-- **ECR and EC2 Instance**: Production deployemnt using Docker EC2 and ECR
+- **ECR and EC2 Instance**: Production deployemnt from Github using Docker Ecr to EC2 Instance
  This workflow will build and push a new container image to Amazon ECR,and then will deploy a new task definition to Amazon ECS, when there is a push to the "main" branch.
 To use this workflow, you will need to complete the following set-up steps:
 1. Create an ECR repository to store your images.
